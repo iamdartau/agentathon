@@ -32,22 +32,24 @@ def run(state: dict) -> dict:
         sample_texts = "\n".join([f"- {r['text'][:250]}" for r in cluster_reviews[:5]])
         response = compass_client.chat(
             messages=[
-                {"role": "system", "content": "You are a CX analyst. Identify pain points concisely. Respond with JSON only."},
+                {"role": "system", "content": "You are a CX analyst. Respond with a single JSON object only. No explanation, no markdown, no extra text."},
                 {
                     "role": "user",
                     "content": (
                         f"These reviews share a common complaint:\n{sample_texts}\n\n"
-                        "Return JSON: {\"pain_point\": \"short label\", \"journey_stage\": \"...\", "
-                        "\"severity\": \"low|medium|high\", \"root_cause\": \"one sentence\"}"
+                        "Return a single JSON object: {\"pain_point\": \"3-5 word label\", \"journey_stage\": \"...\", "
+                        "\"severity\": \"low|medium|high\", \"root_cause\": \"one sentence max\"}"
                     ),
                 },
             ],
-            max_tokens=200,
+            max_tokens=350,
         )
         try:
             label_data = compass_client.extract_json(response)
             if isinstance(label_data, list):
                 label_data = label_data[0] if label_data else {}
+            if not isinstance(label_data, dict):
+                raise ValueError("not a dict")
         except ValueError:
             label_data = {"pain_point": f"Issue group {cluster_id}", "severity": "medium", "journey_stage": "unknown", "root_cause": ""}
 

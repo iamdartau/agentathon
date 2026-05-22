@@ -100,6 +100,7 @@ def run(request: RunRequest):
         "agents_used": ["DiscoveryAgent", "SentimentAgent", "JourneyMapper", "PainDetector", "Recommender", "Evaluator"],
         "result": {
             "business_context": final_state.get("business_context", {}),
+            "sentiments": final_state.get("sentiments", []),
             "sentiment_summary": _sentiment_summary(final_state.get("sentiments", [])),
             "journey_distribution": _stage_distribution(final_state.get("journey_mapped", [])),
             "pain_clusters": final_state.get("pain_clusters", []),
