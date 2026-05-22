@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {"id": "h001", "text": "Check-in was seamless and the front desk staff were incredibly welcoming. Room was ready early and they upgraded us without us asking. A great start to our stay.", "rating": 5, "source": "tripadvisor"},
+    {"id": "h002", "text": "We booked a sea-view room but were given a room overlooking the car park. When I complained the receptionist said nothing was available. We paid a premium for a view we never got.", "rating": 1, "source": "tripadvisor"},
+    {"id": "h003", "text": "The spa was excellent but getting an appointment was nearly impossible. The booking app kept crashing and when I called nobody answered. By the time I got through most slots were gone.", "rating": 3, "source": "tripadvisor"},
+    {"id": "h004", "text": "Breakfast buffet was exceptional. Huge variety, everything fresh, and staff constantly restocking. The omelette station was a highlight. Best hotel breakfast I have had.", "rating": 5, "source": "tripadvisor"},
+    {"id": "h005", "text": "Air conditioning in our room was broken. Maintenance came twice and said it was fixed but it was still warm at night. We did not sleep well for the first two nights.", "rating": 2, "source": "tripadvisor"},
+    {"id": "h006", "text": "The location is perfect, walking distance from all the major sights. The rooftop bar has stunning views and the cocktails are good. Would stay here again purely for the location.", "rating": 4, "source": "tripadvisor"},
+    {"id": "h007", "text": "Late checkout was refused even though the hotel was clearly not busy. We had an evening flight and had to sit in the lobby for four hours with our luggage. Very uncomfortable.", "rating": 2, "source": "tripadvisor"},
+    {"id": "h008", "text": "The room was spotlessly clean and the bed was the most comfortable I have slept in during any hotel stay. Housekeeping were discreet and efficient. No complaints at all.", "rating": 5, "source": "tripadvisor"},
+    {"id": "h009", "text": "WiFi password was wrong on the card left in the room. Took 40 minutes and three calls to reception to get the correct one. Basic amenity, should work from the moment you arrive.", "rating": 2, "source": "tripadvisor"},
+    {"id": "h010", "text": "The concierge organised a last-minute dinner reservation at a fully-booked restaurant for our anniversary. That kind of personal service is why we keep coming back to this property.", "rating": 5, "source": "tripadvisor"},
+    {"id": "h011", "text": "Mini bar prices are outrageous. 18 dollars for a small bottle of water. No mention of this anywhere. Families travelling with kids will be in for a nasty surprise on checkout.", "rating": 2, "source": "tripadvisor"},
+    {"id": "h012", "text": "Pool area was crowded and guests were reserving sun loungers with towels from 7am. Staff did nothing to manage this. Paid extra for pool access and barely used it.", "rating": 2, "source": "tripadvisor"},
+    {"id": "h013", "text": "The shuttle to the airport was on time and the driver was friendly and helpful. Small detail but it made the end of a long trip much smoother. Appreciated.", "rating": 4, "source": "tripadvisor"},
+    {"id": "h014", "text": "Noise from the street was terrible. We were on the third floor and could hear everything until 2am. The hotel should warn guests about this when allocating rooms.", "rating": 1, "source": "tripadvisor"},
+    {"id": "h015", "text": "Checked out and noticed a duplicate charge on my credit card. Called the hotel and was told it would be resolved in 5-7 days. It has now been two weeks and no refund.", "rating": 1, "source": "tripadvisor"}
+  ]
+}

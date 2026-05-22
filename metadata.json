@@ -1,0 +1,14 @@
+{
+  "use_case_id": "18",
+  "agents": [
+    {"name": "DiscoveryAgent", "role": "Infers business type and customer journey stages from the review corpus"},
+    {"name": "SentimentAgent", "role": "Classifies sentiment and extracts evidence per review"},
+    {"name": "JourneyMapper", "role": "Maps each review to the inferred customer journey stages"},
+    {"name": "PainDetector", "role": "Clusters pain points using semantic embeddings and labels each cluster"},
+    {"name": "Recommender", "role": "Generates prioritised CX improvement recommendations"},
+    {"name": "Evaluator", "role": "Critiques recommendations and triggers revision loop if output is weak"}
+  ],
+  "tools_used": ["langgraph", "fastapi", "compass-api", "scikit-learn", "numpy"],
+  "data_sources": ["yelp.com/dataset", "/data/sample/yelp_reviews_sample.json"],
+  "output_type": "text"
+}

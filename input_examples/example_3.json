@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {"id": "e001", "text": "Product arrived next day as promised and was exactly as described. Packaging was solid, nothing damaged. Very happy with the whole experience.", "rating": 5, "source": "trustpilot"},
+    {"id": "e002", "text": "Ordered two weeks ago and the item still has not arrived. Tracking shows it has been sitting in a warehouse for 10 days. Customer service just copy-paste the same response each time I contact them.", "rating": 1, "source": "trustpilot"},
+    {"id": "e003", "text": "The product photos on the website are very misleading. The colour is completely different in person and the material feels much cheaper than it looks online. Returning it.", "rating": 2, "source": "trustpilot"},
+    {"id": "e004", "text": "Easy to find what I was looking for, checkout was quick and I got a confirmation email within minutes. The estimated delivery was accurate too. Straightforward and reliable.", "rating": 4, "source": "trustpilot"},
+    {"id": "e005", "text": "Return process was a nightmare. I had to print a label, find a drop-off point, and wait three weeks for the refund. Other retailers do this in a couple of days.", "rating": 2, "source": "trustpilot"},
+    {"id": "e006", "text": "Size guide was completely wrong. Ordered my usual size and it was two sizes too small. The guide says the item runs large but it runs tiny. Cost me money to return.", "rating": 2, "source": "trustpilot"},
+    {"id": "e007", "text": "Live chat support was fast and the agent knew the product range well. Resolved my question in under five minutes. Exactly the kind of support you want.", "rating": 5, "source": "trustpilot"},
+    {"id": "e008", "text": "Payment page kept timing out. Tried three times over two days before it finally went through. Meanwhile the item went out of stock and I had to wait for a restock.", "rating": 1, "source": "trustpilot"},
+    {"id": "e009", "text": "Loyalty points were not applied to my last order even though I was logged in. Contacted support and they said the system had a glitch. Took a week to get the points manually added.", "rating": 3, "source": "trustpilot"},
+    {"id": "e010", "text": "The product quality is outstanding. I have bought from here three times now and every item has exceeded expectations. Worth every penny and the packaging is beautiful too.", "rating": 5, "source": "trustpilot"},
+    {"id": "e011", "text": "Discount code I received by email did not work at checkout. There was no clear explanation of why. I ended up paying full price because I wanted the item and the sale ended that day.", "rating": 2, "source": "trustpilot"},
+    {"id": "e012", "text": "Received the wrong item entirely. When I reported it I was told I needed to return the wrong item before they would send the correct one. Took three weeks to sort out.", "rating": 1, "source": "trustpilot"},
+    {"id": "e013", "text": "Signed up for the newsletter and got a welcome discount which worked perfectly. Good selection and the filtering options on the site made it easy to find my size quickly.", "rating": 4, "source": "trustpilot"},
+    {"id": "e014", "text": "Product description said compatible with all major devices. It is not compatible with mine and there is no clear list of compatible devices anywhere on the page. False advertising.", "rating": 1, "source": "trustpilot"},
+    {"id": "e015", "text": "The subscription box I signed up for was great for the first two months. Then items started repeating and quality dropped noticeably. Cancelled after month four.", "rating": 3, "source": "trustpilot"}
+  ]
+}
