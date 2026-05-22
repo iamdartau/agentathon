@@ -34,6 +34,10 @@ def run(state: dict) -> dict:
 
     try:
         context = compass_client.extract_json(response)
+        if isinstance(context, list):
+            context = context[0] if context else {}
+        if not isinstance(context, dict):
+            raise ValueError("not a dict")
     except ValueError:
         context = {
             "business_type": "business",

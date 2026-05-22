@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "Absolutely loved our dinner here! The pasta was fresh and flavorful, and the staff made us feel right at home. Will definitely be back.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "Great atmosphere and attentive service. The steak was cooked perfectly and the wine selection was impressive for the price.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "Had a wonderful birthday celebration here. The staff surprised us with a complimentary dessert, which was a lovely touch!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "Delicious food and cozy ambiance. The grilled salmon was a highlight. Good value for the quality you get.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "We came for brunch and were not disappointed! The eggs benedict was spot on and the coffee was strong and hot.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "Friendly staff and quick service. The menu has a lot of variety and everything we tried was tasty.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "Perfect spot for date night. The lighting and music set the mood, and our server was knowledgeable about the menu.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "The portions were generous and the prices reasonable. Loved the homemade desserts, especially the tiramisu.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "Visited with family and everyone found something they liked. The kids' menu is great and the staff was very accommodating.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "Impressed by the fresh ingredients and creative dishes. The chef clearly puts a lot of care into the food.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Nice mid-range restaurant with a relaxed vibe. The cocktails were well made and the appetizers were delicious.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "We had our anniversary dinner here and it was perfect. The staff made us feel special and the food was excellent.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "The decor is modern and inviting. Tried the chef's special and it exceeded my expectations.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "Great value for the quality. The lunch specials are a steal and the service is always prompt.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "Our server was friendly and gave great recommendations. The risotto was creamy and packed with flavor.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "Loved the outdoor seating area. Perfect for a sunny afternoon. The salads were fresh and the bread was warm.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "Consistently good food and service. We come here often and always leave happy.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "The ambiance is lovely and the staff is attentive without being intrusive. Highly recommend the seafood platter.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "Had a business lunch here and it was perfect. Quiet enough to talk, and the food came out quickly.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "Everything was top notch, from the appetizers to the dessert. Can't wait to come back and try more dishes!",
+      "rating": 5,
+      "source": "google"
+    }
+  ]
+}

@@ -49,8 +49,10 @@ def run(state: dict) -> dict:
 
     try:
         recommendations = compass_client.extract_json(response)
+        if isinstance(recommendations, dict):
+            recommendations = recommendations.get("recommendations", [recommendations])
         if not isinstance(recommendations, list):
-            recommendations = recommendations.get("recommendations", [])
+            raise ValueError("not a list")
     except ValueError:
         recommendations = [{"priority": 1, "recommendation": "Address top customer pain points", "pain_point_addressed": "general", "expected_impact": "improved satisfaction", "effort": "medium", "evidence": "multiple reviews"}]
 

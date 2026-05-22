@@ -1,0 +1,184 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "I waited over 45 minutes just to open a simple checking account at the downtown branch. The staff seemed overwhelmed and no one explained the fees clearly.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "The mobile app is super easy to use! I love the fingerprint login and instant balance updates. Makes banking so much more convenient.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "Applied for a credit card online and got approved in less than 24 hours. The process was smooth and the welcome bonus is great.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "Had to visit the branch to resolve a dispute on my account. The teller, Maria, was polite but it took three visits to get things sorted. Not ideal.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "Customer support was helpful when I called about a suspicious transaction. They froze my card right away and issued a new one within two days.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "The app keeps crashing every time I try to deposit a check. I\u2019ve reinstalled it twice and still no luck. Super frustrating!",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "Branch staff are friendly, but the lines are always long during lunch hour. Wish they had more tellers.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "I opened my account online and it was quick, but I never received my debit card in the mail. Had to call twice to get it resent.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "The loan officer, Mr. Patel, explained everything clearly and helped me get a good rate on my car loan. Very satisfied!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "I like the budgeting tools in the mobile app, but sometimes the notifications are delayed. Still, it\u2019s better than my old bank.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Applied for a personal loan and the process was confusing. Got conflicting info from the website and the branch staff.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "The branch on Main Street is always clean and the staff greet you with a smile. I appreciate the personal touch.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "I had to dispute a fraudulent charge and it took almost two weeks to get my money back. Not happy with the slow response.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "Mobile app is okay, but I wish it had more features like bill splitting. Transfers work fine though.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "The staff at the branch were helpful, but I had to wait 30 minutes just to speak to someone about my mortgage application.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "I love how quickly I can deposit checks with the app. Never had an issue and the funds are available the next day.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "Customer service reps are polite, but it takes forever to get through on the phone. Hold times are ridiculous.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "Opened a savings account for my daughter and the process was straightforward. The branch manager even gave her a piggy bank!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "The ATM at the branch was out of order, so I had to wait in line inside. Not a huge deal, but inconvenient.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "I had a mixed experience applying for a credit card. The online form was easy, but I had to call twice to activate it.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r021",
+      "text": "The mobile app is terrible. It logs me out randomly and customer support just tells me to update it. Waste of time.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r022",
+      "text": "I appreciate the fraud alerts I get via text. Helped me catch a suspicious charge right away.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r023",
+      "text": "The branch staff are nice, but the parking lot is always full. Makes quick visits a hassle.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r024",
+      "text": "I had to visit the branch three times to get my name corrected on my account. Staff were apologetic, but it shouldn\u2019t have taken that long.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r025",
+      "text": "The app interface is clean and easy to navigate. Love being able to set up travel notices in seconds.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r026",
+      "text": "Applied for a home loan and the process was slow. Got approved eventually, but communication could have been better.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r027",
+      "text": "I\u2019m really disappointed with the monthly maintenance fees. No one told me about them when I opened my account.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r028",
+      "text": "The teller, James, was super helpful when I needed to wire money overseas. He explained the fees and timing clearly.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r029",
+      "text": "The mobile app is decent, but it doesn\u2019t always show pending transactions right away. Not a dealbreaker, but annoying.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r030",
+      "text": "Had a frustrating experience disputing a charge. The process was slow and I had to follow up multiple times.",
+      "rating": 2,
+      "source": "google"
+    }
+  ]
+}

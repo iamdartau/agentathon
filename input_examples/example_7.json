@@ -1,0 +1,184 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "I waited over an hour past my appointment time, and no one at reception seemed to care. Dr. Patel was rushed and barely listened to my concerns.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "Booking through the clinic's app was super easy, and the receptionist, Linda, greeted me with a smile. Dr. Singh was thorough and explained everything clearly.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "The consultation felt rushed, and I left with more questions than answers. Billing was confusing and I was charged extra for something I didn't understand.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "The waiting room was clean and comfortable, but I still had to wait 30 minutes past my scheduled time. The doctor was friendly, though.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "Absolutely loved my experience! Dr. Evans took the time to explain my diagnosis and the follow-up process. Highly recommend this clinic.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "Reception staff seemed overwhelmed and lost my paperwork. I had to fill out forms twice, which was frustrating.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "The online booking system glitched and double-booked my appointment. The staff apologized, but I still had to wait 45 minutes.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "Dr. Lee was attentive and made me feel at ease during my consultation. The follow-up call was prompt and helpful.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "The clinic is okay. Nothing special, but nothing terrible either. The waiting area could use more magazines.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "I was shocked by the high cost of my visit. The bill included hidden fees that weren't explained upfront.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Receptionist was polite, but the doctor seemed distracted. My diagnosis was clear, but I wish I'd gotten more advice on next steps.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "The follow-up process was a nightmare. I called three times before anyone got back to me about my test results.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "Easy to book, and the nurse, Sarah, was so kind. The doctor explained my treatment options in detail.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "The clinic is always spotless and the staff are professional. I appreciate the text reminders for my appointments.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "I had to wait 20 minutes, but the consultation with Dr. Ahmed was worth it. He listened carefully and answered all my questions.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "The receptionist was rude and unhelpful when I asked about my bill. Won't be coming back.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "Booking was straightforward, but the waiting room was crowded and noisy. The doctor was nice, though.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "Dr. Brown is fantastic! She took her time with my diagnosis and made sure I understood everything. Highly recommend.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "The app crashed twice while I tried to book. Once I got in, the staff were friendly, but the tech needs work.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "I felt like just another number here. The doctor barely looked at me, and the follow-up was nonexistent.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r021",
+      "text": "The billing process was transparent and easy to understand. I appreciated the detailed invoice.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r022",
+      "text": "Reception was efficient, but the doctor was running late. The consultation itself was helpful.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r023",
+      "text": "I had a great experience from start to finish. Booking was easy, and Dr. Kim was very knowledgeable.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r024",
+      "text": "Waited 50 minutes past my appointment. The staff apologized, but it was still frustrating.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r025",
+      "text": "The clinic is fine, but nothing stands out. I got what I needed, but I wouldn't go out of my way to recommend it.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r026",
+      "text": "Dr. Smith was very dismissive and didn't answer my questions. I left feeling anxious and confused.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r027",
+      "text": "The follow-up was prompt, but the initial diagnosis was unclear. I had to call back for clarification.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r028",
+      "text": "Loved the modern waiting area and friendly staff. My consultation started right on time!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r029",
+      "text": "The prices are too high for the level of service provided. I expected more from a private clinic.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r030",
+      "text": "Receptionist was friendly, but the doctor seemed rushed. The follow-up was helpful, though.",
+      "rating": 3,
+      "source": "google"
+    }
+  ]
+}

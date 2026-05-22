@@ -1,0 +1,184 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "Signed up last month and the process took forever, plus the front desk staff seemed annoyed to answer my questions. Not a great first impression.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "Love the yoga classes here! Instructor Jamie is super motivating and the class schedule fits my work hours perfectly.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "The gym equipment is always in use and half the treadmills are broken. I end up waiting 20 minutes just to start my workout.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "Facilities are clean and the showers have good water pressure. Nothing special, but it gets the job done.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "I tried to cancel my membership and was told I needed to give 30 days' notice, which wasn't clear when I signed up. Felt like a money grab.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "Personal training sessions with Alex have really helped me reach my goals. He listens and tailors the workouts to my needs.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "The gym app is glitchy and keeps logging me out, but the staff are friendly and the classes are decent.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "I joined for the group classes but they're always full unless you book days in advance. Frustrating!",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "Great value for the price! The monthly fee is reasonable and I love the variety of equipment.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "The locker rooms are often messy and I\u2019ve seen staff ignore overflowing trash cans. Not impressed.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Signed up online and it was pretty straightforward. Haven\u2019t used many of the amenities yet.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "Spin classes with Rachel are the highlight of my week! She brings so much energy and the music is always on point.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "Machines are outdated and some weights are missing. Staff say replacements are coming but nothing changes.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "The staff are always smiling and greet me by name. Makes working out here feel welcoming.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "I like the gym\u2019s central location, but parking is a nightmare during peak hours.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "Tried to get help with my membership plan but was bounced between three different people. No one seemed to know what was going on.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "The Zumba class was fun, but the studio was too crowded and it got really stuffy.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "I\u2019ve been a member for two years and have seen a lot of improvements, especially with the new cardio machines.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "The cancellation policy is ridiculous. I had to pay for an extra month even though I barely used the gym.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "Staff are hit or miss\u2014some are super helpful, others act like you\u2019re bothering them. The gym itself is fine.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r021",
+      "text": "I appreciate the 24-hour access and the gym is never too crowded late at night.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r022",
+      "text": "Signed up for personal training but my trainer kept rescheduling. Not worth the extra money.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r023",
+      "text": "The sauna is a nice touch, but it\u2019s often closed for maintenance. Wish it was available more often.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r024",
+      "text": "Front desk staff, especially Mark, are always friendly and helpful. Makes checking in a breeze!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r025",
+      "text": "I like the variety of classes, but the schedule changes too often and it's hard to keep track.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r026",
+      "text": "The gym is overpriced for what you get. There are better options nearby for less.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r027",
+      "text": "Tried the boxing class and it was awesome! The coach really knows his stuff.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r028",
+      "text": "Membership signup was quick, but I was surprised by the hidden joining fee.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r029",
+      "text": "The gym is okay. Nothing stands out, but it\u2019s convenient for my commute.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r030",
+      "text": "I had a great experience with the nutrition seminar last week. Learned a lot and the speaker was engaging.",
+      "rating": 4,
+      "source": "google"
+    }
+  ]
+}

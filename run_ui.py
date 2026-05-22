@@ -92,7 +92,8 @@ elif input_mode == "Upload JSON file":
     uploaded = st.file_uploader("Upload reviews JSON", type=["json"])
     if uploaded:
         try:
-            reviews = json.load(uploaded)
+            data = json.load(uploaded)
+            reviews = data.get("reviews", data) if isinstance(data, dict) else data
             st.caption(f"{len(reviews)} review(s) loaded")
         except Exception:
             st.error("Could not parse file")
@@ -162,8 +163,14 @@ if run_btn:
         col_neu.metric("Neutral", ss.get("neutral", 0), delta=None)
 
         avg = ss.get("avg_score", 0)
-        sentiment_label = "Positive" if avg > 0.1 else ("Negative" if avg < -0.1 else "Neutral")
-        st.metric("Average sentiment score", f"{avg:+.3f}", delta=sentiment_label)
+        if avg > 0.1:
+            sentiment_label, label_colour = "Positive", "green"
+        elif avg < -0.1:
+            sentiment_label, label_colour = "Negative", "red"
+        else:
+            sentiment_label, label_colour = "Neutral", "gray"
+        st.metric("Average sentiment score", f"{avg:+.3f}")
+        st.markdown(f":{label_colour}[{sentiment_label}]")
 
         sentiments = result.get("sentiments") or []
         if sentiments:

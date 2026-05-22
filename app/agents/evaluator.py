@@ -46,6 +46,10 @@ def run(state: dict) -> dict:
 
     try:
         evaluation = compass_client.extract_json(response)
+        if isinstance(evaluation, list):
+            evaluation = evaluation[0] if evaluation else {}
+        if not isinstance(evaluation, dict):
+            raise ValueError("not a dict")
     except ValueError:
         evaluation = {"decision": "approved", "critique": "Evaluation parse error, approving by default.", "specific_issues": [], "confidence": 0.7}
 

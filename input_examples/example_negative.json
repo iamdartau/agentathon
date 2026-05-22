@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "Waited over 45 minutes for our food, and when it finally arrived, my pasta was stone cold. Server didn't seem to care when I mentioned it.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "Made a reservation for 7pm, but when we arrived, they had no record of it and made us wait another 30 minutes. Completely disorganized.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "The floor was sticky, and the bathroom was filthy. Not what I expected from a place in this price range.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "Ordered a vegetarian dish, but it came out with chicken in it. Staff didn't apologize, just took it back and brought the same plate minus the chicken.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "Our server was incredibly rude, rolling her eyes when we asked questions about the menu. Made us feel unwelcome.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "Food took forever and when it arrived, my burger was raw in the middle. Sent it back and still got charged for it.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "They messed up our bill, charging us for drinks we never ordered. Took 20 minutes to fix and no apology.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "The table was sticky and had crumbs all over it when we were seated. No one bothered to clean it even after we asked.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "Ordered a steak medium rare, but it came out well done and dry. When I complained, the manager just shrugged.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "Our drinks arrived after our meal, and the soda was flat. Not worth the price at all.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Had to flag down staff multiple times just to get water refilled. Service was painfully slow.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "The chicken was undercooked and pink inside. Lost my appetite and won't be coming back.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "We were seated next to a loud group even though the restaurant was half empty. Staff refused to move us.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "Asked for no onions due to an allergy, but my salad was covered in them. Dangerous and careless.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "The server forgot half our order and we had to remind them twice. Still got charged for everything.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "Restrooms were disgusting\u2014no soap, overflowing trash, and smelled terrible.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "Our appetizer arrived after our main course, and both were cold. No compensation offered.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "Took forever to get the check, and when it finally came, it was for the wrong table.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "Staff seemed annoyed when we asked for a high chair for our toddler. Not family-friendly at all.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "The fish tasted off and made me feel sick later that night. Not taking any chances here again.",
+      "rating": 1,
+      "source": "google"
+    }
+  ]
+}

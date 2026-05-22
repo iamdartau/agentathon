@@ -1,0 +1,184 @@
+{
+  "reviews": [
+    {
+      "id": "r001",
+      "text": "Booking was a nightmare\u2014the website kept crashing and it took me over an hour to finally get my ticket. Not what I expected from an international airline.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r002",
+      "text": "Check-in at JFK was smooth and the staff, especially Maria, were super helpful. I appreciated the quick process and friendly smiles.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r003",
+      "text": "The boarding process was chaotic, with no clear announcements and everyone crowding the gate. I ended up waiting 40 minutes past the scheduled time.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r004",
+      "text": "I loved the in-flight entertainment selection! Tons of movies and games kept me busy for the whole 10-hour flight.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r005",
+      "text": "My bag was delayed for two days after arrival in Paris, and customer support just kept giving me generic responses. Very disappointing.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r006",
+      "text": "The app made check-in easy, but the boarding gate changed last minute and there was no notification. Mixed feelings about the experience.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r007",
+      "text": "Flight attendants were polite, but the food was bland and portions were tiny for a 9-hour flight. Not terrible, but not great either.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r008",
+      "text": "I had a great experience booking through their mobile app\u2014super intuitive and I got a good deal on my ticket.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r009",
+      "text": "Customer support was impossible to reach when I needed to change my flight. Waited on hold for over an hour and still no help.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r010",
+      "text": "The check-in counter staff in Singapore were efficient, but the security line was painfully slow. Overall, it balanced out.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r011",
+      "text": "Boarding was delayed by 30 minutes with no explanation, and the gate staff seemed overwhelmed. Not impressed.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r012",
+      "text": "The seats were surprisingly comfortable and I managed to get some sleep. Would definitely fly with them again!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r013",
+      "text": "Arrival at Heathrow was smooth, but my suitcase was damaged. The claims process was slow, but they eventually compensated me.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r014",
+      "text": "The flight attendants, especially John, were attentive and made sure everyone was comfortable. Really appreciated the service.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r015",
+      "text": "I paid extra for priority boarding, but it made no difference\u2014everyone boarded at the same time. Waste of money.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r016",
+      "text": "The booking process was straightforward, but I wish there were more payment options. Still, not a big issue.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r017",
+      "text": "My flight was cancelled last minute and I had to spend hours at the airport waiting for a new one. No compensation offered.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r018",
+      "text": "Loved the friendly crew and the free snacks! The flight from Dubai to Rome was a breeze.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r019",
+      "text": "The in-flight Wi-Fi was expensive and barely worked. I expected better for the price I paid.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r020",
+      "text": "Check-in was okay, but the boarding area was crowded and there weren\u2019t enough seats. Not the worst, but could be better.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r021",
+      "text": "Customer support via chat was actually helpful and resolved my seat change quickly. Pleasantly surprised!",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r022",
+      "text": "The flight was delayed by two hours and we weren\u2019t given any updates. Missed my connecting train because of it.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r023",
+      "text": "Booking was easy and I liked the seat selection feature, but the extra baggage fees were higher than expected.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r024",
+      "text": "The staff at the baggage claim in Madrid were rude and unhelpful when my suitcase didn\u2019t arrive. Very frustrating.",
+      "rating": 1,
+      "source": "google"
+    },
+    {
+      "id": "r025",
+      "text": "I had a pleasant flight overall. The food was decent and the crew checked on us regularly.",
+      "rating": 4,
+      "source": "google"
+    },
+    {
+      "id": "r026",
+      "text": "The check-in process was fast, but the boarding pass scanner at the gate kept malfunctioning, causing delays.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r027",
+      "text": "I was impressed by the cleanliness of the cabin and the professionalism of the crew. Will recommend to friends.",
+      "rating": 5,
+      "source": "google"
+    },
+    {
+      "id": "r028",
+      "text": "The flight was average\u2014nothing stood out, but nothing went wrong either. Got me where I needed to go.",
+      "rating": 3,
+      "source": "google"
+    },
+    {
+      "id": "r029",
+      "text": "Had to wait 45 minutes for my luggage at LAX. Not acceptable after a long-haul flight.",
+      "rating": 2,
+      "source": "google"
+    },
+    {
+      "id": "r030",
+      "text": "The online check-in was glitchy, but the staff at the airport helped me out quickly. Mixed experience.",
+      "rating": 3,
+      "source": "google"
+    }
+  ]
+}
