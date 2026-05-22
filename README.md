@@ -145,6 +145,9 @@ If `reviews` is omitted and `SAMPLE_MODE=true`, the system uses bundled sample d
       "journey_stages": ["Discovery & Reservation", "Arrival & Seating", "Dining & Service", "Billing & Departure", "Post-Visit Support"],
       "analysis_summary": "..."
     },
+    "sentiments": [
+      {"id": "r001", "sentiment": "positive", "score": 0.95, "evidence": "pasta was perfectly cooked", "journey_stage_hint": "Dining & Service"}
+    ],
     "sentiment_summary": {
       "positive": 8, "negative": 10, "neutral": 0, "mixed": 2,
       "avg_score": -0.058, "total": 20
@@ -187,20 +190,60 @@ If `reviews` is omitted and `SAMPLE_MODE=true`, the system uses bundled sample d
 
 ## Examples
 
-Three input/output pairs are included covering different verticals:
+Nine input examples covering 7 verticals are included:
 
 | File | Vertical | Reviews |
 |------|----------|---------|
-| `input_examples/example_1.json` | Restaurant | 20 reviews |
-| `input_examples/example_2.json` | Hotel | 15 reviews |
-| `input_examples/example_3.json` | E-commerce | 15 reviews |
+| `input_examples/example_1.json` | Restaurant (mixed) | 20 |
+| `input_examples/example_2.json` | Hotel (mixed) | 15 |
+| `input_examples/example_3.json` | E-commerce (mixed) | 15 |
+| `input_examples/example_4.json` | Airline (mixed) | 30 |
+| `input_examples/example_5.json` | Bank (mixed) | 30 |
+| `input_examples/example_6.json` | Gym (mixed) | 30 |
+| `input_examples/example_7.json` | Clinic (mixed) | 30 |
+| `input_examples/example_positive.json` | Restaurant (all positive) | 20 |
+| `input_examples/example_negative.json` | Restaurant (all negative) | 20 |
+
+Corresponding real outputs are in `output_examples/`.
 
 Run any example:
 ```bash
 curl -s -X POST http://localhost:8000/run \
   -H "Content-Type: application/json" \
-  -d @input_examples/example_2.json | python3 -m json.tool
+  -d @input_examples/example_4.json | python3 -m json.tool
 ```
+
+---
+
+## Streamlit UI
+
+A visual interface is included for interactive demos.
+
+```bash
+# Start the API first
+python3 run.py &
+
+# Start the UI
+streamlit run run_ui.py --server.port 8501
+```
+
+Open **http://localhost:8501**. Features:
+- Upload any JSON file or paste reviews directly
+- Sentiment tab — per-review breakdown with evidence quotes
+- Journey tab — stage distribution bar chart
+- Pain Clusters tab — severity-sorted cards with root causes
+- Recommendations tab — evaluator critique + 5 priority actions
+- Raw JSON tab — full API response
+
+---
+
+## Tests
+
+```bash
+python3 -m pytest tests/ -v
+```
+
+29 tests covering `extract_json`, review normalisation, sentiment summary, stage distribution, and API endpoints. No API calls required — all external dependencies are mocked.
 
 ---
 
@@ -230,13 +273,14 @@ Each entry contains: `timestamp`, `run_id`, `agent_name`, `action`, `input_summa
 ```
 agentathon/
 ├── run.py                        # FastAPI entry point
+├── run_ui.py                     # Streamlit UI (port 8501)
 ├── metadata.json                 # Hackathon submission metadata
 ├── requirements.txt
 ├── Dockerfile
 ├── .env.example                  # Copy to .env and fill in API key
 │
 ├── app/
-│   ├── compass_client.py         # Core42 Compass HTTP client
+│   ├── compass_client.py         # Core42 Compass HTTP client + embedding cache
 │   ├── logging_utils.py          # JSONL trace logger
 │   ├── orchestration.py          # LangGraph workflow
 │   ├── schemas.py                # Pydantic request/response models
@@ -251,8 +295,9 @@ agentathon/
 ├── data/sample/
 │   └── yelp_reviews_sample.json  # 20 bundled restaurant reviews
 │
-├── input_examples/               # 3 example inputs (restaurant, hotel, e-commerce)
-├── output_examples/              # 3 real outputs from the pipeline
+├── input_examples/               # 9 example inputs across 7 verticals
+├── output_examples/              # 7 real outputs from the pipeline
+├── tests/                        # Pytest suite (29 tests, no API calls)
 └── logs/
     └── agent_trace.jsonl         # Live run trace
 ```
