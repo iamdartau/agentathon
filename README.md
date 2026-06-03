@@ -210,28 +210,32 @@ SAMPLE_MODE=true python3 run.py
 docker build -t cx-intelligence .
 ```
 
-### Step 2 — Create your `.env` file (if you haven't already)
+### Step 2 — Start the API container
+
+Pass your Compass key directly with `-e`:
 
 ```bash
-cp .env.example .env
-# Open .env and set OPENAI_API_KEY to your Compass key
+docker run -d --name cx-agent -p 8000:8000 \
+  -e OPENAI_API_KEY="your_compass_key_here" \
+  -e OPENAI_BASE_URL="https://api.core42.ai/v1" \
+  cx-intelligence
 ```
 
-### Step 3 — Start the API container
+Replace `your_compass_key_here` with your actual Compass API key. No `.env` file needed.
+
+**Alternative — if you have a `.env` file:**
 
 ```bash
 docker run -d --name cx-agent -p 8000:8000 --env-file .env cx-intelligence
 ```
 
-> **Why `--env-file .env`?** This is the safest way to pass credentials — no risk of accidentally passing an empty string, no secrets in your shell history.
-
-### Step 4 — Verify it started correctly
+### Step 3 — Verify the key was accepted
 
 ```bash
 curl http://localhost:8000/health
 ```
 
-Expected response — **`compass_configured` must be `true`** before proceeding:
+**`compass_configured` must be `true`** before proceeding:
 
 ```json
 {
@@ -242,14 +246,13 @@ Expected response — **`compass_configured` must be `true`** before proceeding:
 }
 ```
 
-If you see `compass_configured: false`, the API key was not passed. Stop the container and check your `.env` file:
+If you see `compass_configured: false`, the API key was not passed correctly. Stop the container, check the key, and try again:
 
 ```bash
 docker stop cx-agent && docker rm cx-agent
-# Fix .env, then run Step 3 again
 ```
 
-### Step 5 — Run a test request
+### Step 4 — Run a test request
 
 ```bash
 curl -s -X POST http://localhost:8000/run \
@@ -257,7 +260,7 @@ curl -s -X POST http://localhost:8000/run \
   -d @input_examples/example_1.json | python3 -m json.tool
 ```
 
-### Step 6 — Start the UI (optional)
+### Step 5 — Start the UI (optional)
 
 The UI runs outside Docker and connects to the API on port 8000:
 
@@ -265,9 +268,9 @@ The UI runs outside Docker and connects to the API on port 8000:
 streamlit run run_ui.py --server.port 8001
 ```
 
-Open **http://localhost:8001**. Check the sidebar — it must show **"API connected"** before clicking Run Analysis.
+Open **http://localhost:8001**. The sidebar must show **"API connected"** before clicking Run Analysis.
 
-### Stop the container
+### Stop the container when done
 
 ```bash
 docker stop cx-agent && docker rm cx-agent
