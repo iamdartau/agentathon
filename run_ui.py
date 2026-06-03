@@ -124,7 +124,10 @@ if run_btn:
             st.stop()
 
     if data.get("status") != "success":
-        st.error(f"Pipeline error: {data.get('message', 'unknown')}")
+        # FastAPI HTTPException uses "detail"; our own errors use "message"
+        err_msg = data.get("message") or data.get("detail") or json.dumps(data)
+        st.error(f"Pipeline error: {err_msg}")
+        st.json(data)
         st.stop()
 
     elapsed = round(time.time() - t0, 1)

@@ -1,5 +1,7 @@
+import argparse
 import json
 import os
+import sys
 import time
 import uuid
 from pathlib import Path
@@ -130,6 +132,79 @@ def _stage_distribution(journey_mapped: list[dict]) -> dict:
     return dist
 
 
+def _cli_run(input_path: str, output_path: str) -> None:
+    """Run the pipeline on a local file and write results to output_path, then exit."""
+    if not os.getenv("OPENAI_API_KEY"):
+        print("ERROR: OPENAI_API_KEY not set. Copy .env.example to .env and fill in your Compass key.", file=sys.stderr)
+        sys.exit(1)
+
+    raw = json.loads(Path(input_path).read_text())
+    # Accept both {"reviews": [...]} and bare [...]
+    if isinstance(raw, list):
+        reviews = _normalise_reviews(raw)
+    elif isinstance(raw, dict) and "reviews" in raw:
+        reviews = _normalise_reviews(raw["reviews"])
+    else:
+        print("ERROR: Input must be a JSON array of reviews or an object with a 'reviews' key.", file=sys.stderr)
+        sys.exit(1)
+
+    if len(reviews) < 2:
+        print("ERROR: At least 2 reviews are required.", file=sys.stderr)
+        sys.exit(1)
+
+    run_id = f"run_{uuid.uuid4().hex[:8]}"
+    start = time.time()
+
+    initial_state = {
+        "run_id": run_id,
+        "reviews": reviews,
+        "sample_mode": False,
+        "business_context": {},
+        "sentiments": [],
+        "journey_mapped": [],
+        "pain_clusters": [],
+        "recommendations": [],
+        "evaluation": {},
+        "revision_count": 0,
+    }
+
+    final_state = workflow.invoke(initial_state)
+    runtime = round(time.time() - start, 2)
+
+    result = {
+        "status": "success",
+        "use_case_id": "18",
+        "trace_id": run_id,
+        "runtime_seconds": runtime,
+        "sample_mode": False,
+        "agents_used": ["DiscoveryAgent", "SentimentAgent", "JourneyMapper", "PainDetector", "Recommender", "Evaluator"],
+        "result": {
+            "business_context": final_state.get("business_context", {}),
+            "sentiments": final_state.get("sentiments", []),
+            "sentiment_summary": _sentiment_summary(final_state.get("sentiments", [])),
+            "journey_distribution": _stage_distribution(final_state.get("journey_mapped", [])),
+            "pain_clusters": final_state.get("pain_clusters", []),
+            "recommendations": final_state.get("recommendations", []),
+            "evaluation": final_state.get("evaluation", {}),
+            "revision_count": final_state.get("revision_count", 0),
+        },
+    }
+
+    Path(output_path).write_text(json.dumps(result, indent=2))
+    print(f"Done. Output written to {output_path} ({runtime}s)")
+
+
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", "8000"))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    parser = argparse.ArgumentParser(description="CX Intelligence Agent — G42 Agentathon Use Case 18")
+    parser.add_argument("--input", help="Path to input JSON file (CLI mode)")
+    parser.add_argument("--output", help="Path to write output JSON file (CLI mode)")
+    args = parser.parse_args()
+
+    if args.input or args.output:
+        if not args.input or not args.output:
+            print("ERROR: Both --input and --output are required for CLI mode.", file=sys.stderr)
+            sys.exit(1)
+        _cli_run(args.input, args.output)
+    else:
+        port = int(os.getenv("PORT", "8000"))
+        uvicorn.run(app, host="0.0.0.0", port=port)
