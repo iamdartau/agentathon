@@ -291,12 +291,33 @@ docker stop cx-agent && docker rm cx-agent
 
 ### `POST /run`
 
-**Request:**
+**Request body:**
+
 ```json
 {
   "reviews": [
     {"id": "r001", "text": "Waited 45 minutes with a reservation. Hostess was rude.", "rating": 1, "source": "yelp"},
     {"id": "r002", "text": "Amazing food and attentive staff. Will be back.", "rating": 5, "source": "yelp"}
+  ]
+}
+```
+
+**Review fields:**
+
+| Field | Required | Type | Description |
+|-------|:--------:|------|-------------|
+| `text` | ✅ | string | The review content — the only field agents actually read |
+| `id` | No | string | Any identifier; auto-generated if omitted |
+| `rating` | No | number | Star rating (e.g. 1–5) |
+| `source` | No | string | Origin platform (`"yelp"`, `"google"`, etc.) |
+
+**Minimum valid input** (just `text` required, minimum 2 reviews):
+
+```json
+{
+  "reviews": [
+    {"text": "Great service, food was excellent."},
+    {"text": "Waited an hour, staff was rude, will not return."}
   ]
 }
 ```
